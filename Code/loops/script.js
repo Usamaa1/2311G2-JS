@@ -88,6 +88,76 @@ let numbers1 = [2,3,4,56,76,324]
 console.table(numbers1)
 
 
+let products = ["Headphone","Mobile","Mouse","Keyboard","Files","Books","Duster"];
+
+let isFound = false;
+
+
+for(let i=0; i <products.length; i++)
+{
+    
+    if(products[i] == "Bohfghfgoks")
+    {
+        document.write("Found <br>");
+        isFound = true;
+    }
+   
+   
+}
+
+if(!isFound)
+{
+    document.write("Not Found <br>");
+}
+
+// if(isFound == false)
+// {
+//  document.write("Not Found")
+// }
+
+
+
+
+
+
+// if(isFound)
+// {
+//     console.log("-----------Found")
+// }
+// else
+// {
+//     console.log("-------------Not Found")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
